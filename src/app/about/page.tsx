@@ -4,10 +4,10 @@ export default function About() {
     return (
         <>
             <div className="flex flex-wrap justify-between mt-[100px] max-w-[1700px] mx-auto">
-                <div className="mx-auto">
-                    <p className="relative text-[50px] sm:text-[60px] md:text-[80px] lg:text-[80px] xl:text-[110px] 2xl:text-[110px] pr-[100px]">
+                <div className="mx-auto px-[40px]">
+                    <p className="relative text-[50px] sm:text-[60px] md:text-[80px] lg:text-[80px] xl:text-[110px] 2xl:text-[110px]">
                         JoMinhwa
-                        <span className="absolute right-[-15px] top-[-75px] ">
+                        <span className="absolute right-[-60px] top-[-55px] sm:right-[-70px] sm:top-[-55px] md:right-[-85px] md:top-[-60px] lg:right-[-85px] lg:top-[-60px] xl:right-[-115px] xl:top-[-75px] 2xl:right-[-115px] 2xl:top-[-75px]">
                             <Image
                                 src="/images/bluestar_eight2.png"
                                 width={187}
@@ -18,14 +18,14 @@ export default function About() {
                         </span>
                     </p>
 
-                    <p className="text-[15px] 2xl:text-[28px]">1999/09/16</p>
-                    <p className="text-[15px] 2xl:text-[28px]">minhwa1224@naver.com</p>
+                    <p className="text-[15px] md:text-[21px] lg:text-[21px] xl:text-[28px] 2xl:text-[28px]">1999/09/16</p>
+                    <p className="text-[15px] md:text-[21px] lg:text-[21px] xl:text-[28px] 2xl:text-[28px]">minhwa1224@naver.com</p>
                     <br />
                     <p className="">후회하는 과거는 바꿀 수 없지만,</p>
                     <p className="">후회없는 코딩을 하고싶은 개발자 조민화입니다.</p>
                 </div>
                 {/* <div className="sm:mx-[20px] md:mx-[67px] lg:mx-[65px] xl:mx-[80px] 2xl:mx-[200px]"></div> */}
-                <div className="mx-auto">
+                <div className="mx-auto px-[40px]">
                     <p className="text-[28px] mt-[40px] mb-[20px]">Skill</p>
                     <div className="flex flex-wrap justify-center mb-[30px]">
                         <Image src="/images/html5.png" width={60} height={60} alt="html5" className="w-[55px] h-[55px] mx-[10px]" />
