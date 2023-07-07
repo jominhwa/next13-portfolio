@@ -6,11 +6,11 @@ const goblin_One = Noto_Sans({ weight: "400", subsets: ["latin"] });
 export default function About() {
     return (
         <>
-            <div className="flex flex-wrap justify-between mt-[100px] max-w-[1700px] mx-auto">
+            <div className="flex flex-wrap lg:flex-nowrap xl:flex-nowrap 2xl:flex-nowrap justify-between mt-[100px] max-w-[1700px] mx-auto">
                 <div className="mx-auto px-[40px]">
                     <p className="relative text-[50px] sm:text-[60px] md:text-[80px] lg:text-[80px] xl:text-[110px] 2xl:text-[110px]">
                         JoMinhwa
-                        <span className="absolute right-[-58px] top-[-55px] sm:right-[-70px] sm:top-[-55px] md:right-[-82px] md:top-[-60px] lg:right-[-85px] lg:top-[-60px] xl:right-[-115px] xl:top-[-75px] 2xl:right-[-115px] 2xl:top-[-75px]">
+                        <span className="absolute right-[-58px] top-[-55px] sm:right-[-70px] sm:top-[-55px] md:right-[-82px] md:top-[-60px] lg:right-[-82px] lg:top-[-60px] xl:right-[-115px] xl:top-[-75px] 2xl:right-[-115px] 2xl:top-[-75px]">
                             <Image
                                 src="/images/bluestar_eight2.png"
                                 width={187}
@@ -28,7 +28,7 @@ export default function About() {
                     <p className="mb-[40px] 2xl:mb-[0px]">후회없는 코딩을 하고싶은 개발자 조민화입니다.</p>
                 </div>
                 {/* <div className="sm:mx-[20px] md:mx-[67px] lg:mx-[65px] xl:mx-[80px] 2xl:mx-[200px]"></div> */}
-                <div className="mx-auto px-[40px]">
+                <div className="mx-auto px-[19px]">
                     <p className="text-[28px] mt-[40px] mb-[20px]">Skill</p>
                     <div className="flex flex-wrap justify-center mb-[30px]">
                         <Image src="/images/html5.png" width={60} height={60} alt="html5" className="w-[55px] h-[55px] mx-[10px]" />
@@ -66,9 +66,9 @@ export default function About() {
             <div className="flex justify-center">
                 <div className="border-[2px] border-black my-5 w-[80%] sm:w-[80%] md:w-[90%] 2xl:w-[1410px]"></div>
             </div>
-            <div className="flex justify-center w-auto">
-                <div className="flex justify-between flex-wrap">
-                    <div className="ml-[80px] mb-4 sm:mx-[115px] md:mx-[115px] lg:mx-[115px] xl:mx-[115px] 2xl:mx-[90px]">
+            <div className="flex justify-center ">
+                <div className="flex flex-wrap justify-center lg:justify-between xl:justify-between 2xl:justify-between">
+                    <div className="ml-[80px] mb-4 mr-[105px] sm:mr-[180px] md:mr-[180px] lg:mx-[80px] xl:mx-[100px] 2xl:mx-[90px] ">
                         <div className="flex items-center">
                             <Image src="/images/star_eight2.png" width={35} height={35} alt="figma" className="mr-[5px]" />
                             <p className="text-[20px]">EDUCATION</p>
@@ -78,7 +78,7 @@ export default function About() {
                             <p className="mt-[10px]">2023.02 한성대학교 컴퓨터공학부 졸업</p>
                         </span>
                     </div>
-                    <div className="ml-[80px] mb-4 sm:mx-[115px] md:mx-[115px] lg:mx-[115px] xl:mx-[115px] 2xl:mx-[109px]">
+                    <div className="ml-[80px] sm:mx-[115px] md:mx-[115px] mb-4 lg:mx-[80px] xl:mx-[100px] 2xl:mx-[109px]">
                         <div className="flex items-center">
                             <Image src="/images/star_eight2.png" width={35} height={35} alt="figma" className="mr-[5px]" />
                             <p className="text-[20px]">AWARDS</p>
@@ -90,7 +90,7 @@ export default function About() {
                             <p className="mt-[10px]">2019.07 한성대학교 High Success Project 우수상</p>
                         </span>
                     </div>
-                    <div className="ml-[80px] mb-4 sm:mx-[115px] md:mx-[115px] lg:mx-[115px] xl:mx-[115px] 2xl:mx-[90px]">
+                    <div className="ml-[80px] mb-4 mr-[105px] sm:mr-[180px] md:mr-[180px] lg:mx-[80px] xl:mx-[100px] 2xl:mx-[90px]">
                         <div className="flex items-center">
                             <Image src="/images/star_eight2.png" width={35} height={35} alt="figma" className="mr-[5px]" />
                             <p className="text-[20px]">EXPERIENCE</p>
