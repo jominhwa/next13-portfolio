@@ -62,7 +62,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="2xl:h-[100px]"></div>
+            <div className="2xl:h-[120px]"></div>
             <div className="flex justify-center">
                 <div className="border-[2px] border-black my-5 w-[80%] sm:w-[80%] md:w-[90%] 2xl:w-[1410px]"></div>
             </div>
