@@ -6,10 +6,10 @@ export default function Contact() {
             <div className="flex justify-center">
                 <Image
                     src="/images/circle.png"
-                    width={980}
-                    height={940}
+                    width={580}
+                    height={540}
                     alt="circle"
-                    className="blur-2xl mt-[-120px] xl:ml-[300px] 2xl:ml-[500px] z-[-1]"
+                    className="blur-[100px] xl:ml-[300px] 2xl:ml-[500px] z-[-1]"
                 />
                 <Image
                     src="/images/twostar.png"
