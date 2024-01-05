@@ -30,10 +30,10 @@ export default function Project() {
                     <div className="flex justify-center flex-wrap lg:flex-nowrap xl:flex-nowrap 2xl:flex-nowrap">
                         <div className="flex items-center mt-[60px] lg:h-[650px] xl:h-[650px] 2xl:h-[650px]">
                             <Image
-                                src="/images/project_irounfarm.png"
+                                src="/images/project_iroun_farm.png"
                                 width={1000}
                                 height={740}
-                                alt="project_irounfarm"
+                                alt="project_iroun_farm"
                                 className="w-[850px]"
                             />
                         </div>
