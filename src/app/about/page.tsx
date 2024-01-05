@@ -25,7 +25,7 @@ export default function About() {
                     <p className="text-[15px] md:text-[21px] lg:text-[21px] xl:text-[28px] 2xl:text-[28px]">minhwa1224@naver.com</p>
                     <br />
                     <p className="">후회하는 과거는 바꿀 수 없지만,</p>
-                    <p className="mb-[40px] 2xl:mb-[0px]">후회없는 코딩을 하고싶은 개발자 조민화입니다.</p>
+                    <p className="2xl:mb-[0px]">후회없는 코딩을 하고싶은 개발자 조민화입니다.</p>
                 </div>
                 {/* <div className="sm:mx-[20px] md:mx-[67px] lg:mx-[65px] xl:mx-[80px] 2xl:mx-[200px]"></div> */}
                 <div className="mx-auto px-[19px]">
@@ -48,21 +48,21 @@ export default function About() {
                             className="w-[55px] h-[55px] mx-[10px]"
                         />
                     </div>
-                    <div className="flex flex-wrap justify-center">
-                        <Image src="/images/react.png" width={60} height={60} alt="react" className="w-[55px] h-[55px] mx-[10px]" />
+                    <div className="flex flex-wrap justify-center mb-[30px]">
+                        <Image src="/images/angular.png" width={60} height={60} alt="angular" className="w-[55px] h-[55px] mx-[10px]" />
                         <Image src="/images/nextjs.png" width={60} height={60} alt="nextjs" className="w-[55px] h-[55px] mx-[10px]" />
+                        <Image src="/images/react.png" width={60} height={60} alt="react" className="w-[55px] h-[55px] mx-[10px]" />
                         <Image src="/images/tailwind.png" width={60} height={60} alt="tailwind" className="w-[55px] h-[55px] mx-[10px]" />
-                        <Image src="/images/figma.png" width={60} height={60} alt="figma" className="w-[55px] h-[55px] mx-[10px]" />
                     </div>
-                    <div className="flex flex-wrap justify-center">
-                        <div className="w-[60px] h-[60px]"></div>
-                        <div className="w-[60px] h-[60px]"></div>
-                        <div className="w-[60px] h-[60px]"></div>
-                        <div className="w-[60px] h-[60px]"></div>
+                    <div className="flex flex-wrap justify-center mb-[30px]">
+                        <Image src="/images/nodejs.png" width={60} height={60} alt="nodejs" className="w-[55px] h-[55px] mx-[10px]" />
+                        <Image src="/images/webrtc.png" width={60} height={60} alt="webrtc" className="w-[55px] h-[55px] mx-[10px]" />
+                        <Image src="/images/git.png" width={60} height={60} alt="git" className="w-[55px] h-[55px] mx-[10px]" />
+                        <Image src="/images/aws.png" width={60} height={60} alt="aws" className="w-[55px] h-[55px] mx-[10px]" />
                     </div>
                 </div>
             </div>
-            <div className="2xl:h-[120px]"></div>
+            <div className="2xl:h-[85px]"></div>
             <div className="flex justify-center">
                 <div className="border-[2px] border-black my-5 w-[80%] sm:w-[80%] md:w-[90%] 2xl:w-[1410px]"></div>
             </div>
@@ -85,7 +85,7 @@ export default function About() {
                         </div>
                         <span className={goblin_One.className}>
                             <p className="mt-[10px]">2022.06 한성대학교 캡스톤디자인 작품 발표회 우수상</p>
-                            <p className="mt-[10px]">2020.12 이브와 여성ICT 멘토링 입선</p>
+                            <p className="mt-[10px]">2020.12 이브와 ICT 멘토링 입선</p>
                             <p className="mt-[10px]">2020.02 한성대학교 High Success Project 대상</p>
                             <p className="mt-[10px]">2019.07 한성대학교 High Success Project 우수상</p>
                         </span>
@@ -103,8 +103,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-
-            <></>
         </>
     );
 }
