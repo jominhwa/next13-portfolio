@@ -109,7 +109,7 @@ export default function Project() {
                         <div key={item.id}>
                             <div className="flex justify-center flex-wrap lg:flex-nowrap xl:flex-nowrap 2xl:flex-nowrap">
                                 <div className="flex items-center mt-[40px] lg:my-[60px] lg:h-[650px] xl:my-[60px] xl:h-[650px] 2xl:my-[60px] 2xl:h-[650px]">
-                                    <Image src={item.img} alt="project" width={2000} height={1740} quality={100} className="w-[850px]" />
+                                    <Image src={item.img} alt="project" width={850} height={630} quality={100} className="w-[900px]" />
                                 </div>
                                 <div className="min-w-[480px] max-w-[480px]  mx-[5%] mt-[50px] lg:mt-[140px] xl:mt-[140px] 2xl:mt-[140px]">
                                     <p className="font-bold text-[54px] text-right mb-[10px]">{item.title}</p>
