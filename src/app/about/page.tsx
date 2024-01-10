@@ -57,8 +57,8 @@ export default function About() {
                     <div className="flex flex-wrap justify-center mb-[30px]">
                         <Image src="/images/nodejs.png" width={60} height={60} alt="nodejs" className="w-[55px] h-[55px] mx-[10px]" />
                         <Image src="/images/webrtc.png" width={60} height={60} alt="webrtc" className="w-[55px] h-[55px] mx-[10px]" />
-                        <Image src="/images/git.png" width={60} height={60} alt="git" className="w-[55px] h-[55px] mx-[10px]" />
                         <Image src="/images/aws.png" width={60} height={60} alt="aws" className="w-[55px] h-[55px] mx-[10px]" />
+                        <Image src="/images/git.png" width={60} height={60} alt="git" className="w-[55px] h-[55px] mx-[10px]" />
                     </div>
                 </div>
             </div>

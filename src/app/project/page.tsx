@@ -26,7 +26,7 @@ export default function Project() {
             img: "/images/project_buildingtalks.png",
             title: "building talks",
             subtitle: "건물 관리를 위한 회의 솔루션",
-            summary: "환경 친화적이면서도 효율적인 건물 관리를 위한 종이 없는 필기 및 실시간 투표 솔루션이다.",
+            summary: "건물 관리 회의에 필요한 문서 보관과 실시간 판서 및 투표 솔루션이다.",
             skill: "#Angular #TypeScript #SCSS #Node.js #MongoDB #AWS #Ngnix #Git #Figma",
         },
         {

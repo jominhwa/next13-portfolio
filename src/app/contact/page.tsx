@@ -19,14 +19,25 @@ export default function Contact() {
                     className="absolute -rotate-10 left-2/3 ml-[100px] mt-[500px]"
                 />
                 <div className="absolute text-[42px] -rotate-90 left-1/2 transform translate-x-[-50%]  xl:ml-[-100px] 2xl:ml-[-200px]">
-                    <p className="mb-[20px] ml-[-200px]">Resume</p>
-                    <p className="mb-[20px] ml-[-300px]">Notion</p>
-                    <p className="mb-[20px] ml-[-400px]">Github</p>
-                    <p className="mb-[20px] ml-[-500px]">Email</p>
+                    <p className="mb-[20px] ml-[-200px]">
+                        <a href="/files/resume.pdf" download>
+                            Resume
+                        </a>
+                    </p>
+                    <p className="mb-[20px] ml-[-300px]">
+                        <a href="https://vladek.notion.site/vladek/b5d236988bff498b9a227aa867872dee?v=758022a0c38841148c8830414c0d8d65">
+                            Notion
+                        </a>
+                    </p>
+                    <p className="mb-[20px] ml-[-400px]">
+                        {" "}
+                        <a href="https://github.com/nsmarts-jmh">Github</a>
+                    </p>
+                    <p className="mb-[20px] ml-[-500px]">
+                        <a href="mailto:minhwa1224@naver.com">Email</a>
+                    </p>
                 </div>
             </div>
-
-            {/* <div className="w-96 h-96 transform rotate-45 flex-shrink-0 rounded-full bg-blue-800 blur-[150px] shadow-black"></div> */}
         </>
     );
 }
