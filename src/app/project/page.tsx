@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function Project() {
     const [activeDiv, setActiveDiv] = useState(0);
+    const [isHovered, setIsHovered] = useState(false);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -116,13 +117,17 @@ export default function Project() {
                                     <p className="text-right mb-[20px]">{item.subtitle}</p>
                                     <p className="text-right">{item.summary}</p>
                                     <p className="text-right mt-[30px]">{item.skill}</p>
-                                    <div className="relative">
+                                    <div
+                                        className="relative"
+                                        onMouseEnter={() => setIsHovered(true)}
+                                        onMouseLeave={() => setIsHovered(false)}
+                                    >
                                         <Image
-                                            src="/images/circle2.png"
-                                            width={233}
+                                            src={isHovered ? "/images/circle2_hover.png" : "/images/circle2.png"}
+                                            width={240}
                                             height={70}
                                             alt="circle"
-                                            className="mt-[40px] lg:mt-[150px] xl:mt-[150px] 2xl:mt-[150px] ml-[250px]"
+                                            className="mt-[40px] lg:mt-[150px] xl:mt-[150px] 2xl:mt-[150px] ml-[250px] cursor-pointer"
                                         />
                                     </div>
                                 </div>
